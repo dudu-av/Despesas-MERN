@@ -1,0 +1,57 @@
+input {
+  border-radius: 15px;
+  font-size: 17px;
+  width: 300px;
+  padding: 14px 16px;
+  border: none;
+}
+
+#loginContainer {
+  padding: 3px;
+  background-color: var(--dark-green-night);
+  text-align: center;
+  border-radius: 15px;
+}
+
+#nameField,
+#passwordField,
+#loginButtonDiv {
+  width: 364px;
+  margin: auto;
+  padding: 6px 0;
+  padding-top: 10px;
+}
+
+#nameField {
+  margin-top: 10px;
+}
+
+#loginButton {
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: var(--star);
+  background-color: var(--light-green-night);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#loginButton:hover {
+  background-color: var(--darker-light-green-night);
+  transition-duration: 0.2s;
+}
+
+#loginButton:active {
+  background-color: var(--green-night);
+  border: 5px solid --light-green-night;
+}
+
+#biggerContainer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

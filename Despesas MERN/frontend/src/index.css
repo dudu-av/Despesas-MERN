@@ -1,0 +1,22 @@
+:root {
+  --green-night: #1c6052;
+  --dark-green-night: #0b2c25;
+  --light-green-night: #6c896d;
+  --darker-light-green-night: #4c694d;
+  --star: #dbd79f;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--green-night);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
